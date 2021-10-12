@@ -1,0 +1,11 @@
+dn: ou=People,dc=tardis,dc=ed,dc=ac,dc=uk
+objectClass: organizationalUnit
+ou: People
+
+dn: ou=Maps,dc=tardis,dc=ed,dc=ac,dc=uk
+objectClass: organizationalUnit
+ou: Maps
+
+dn: ou=Group,dc=tardis,dc=ed,dc=ac,dc=uk
+objectClass: organizationalUnit
+ou: Group

@@ -1,0 +1,9 @@
+services:
+  openldap:
+    build: .
+    ports:
+      - '389:389'
+    environment:
+      - LDAP_DOMAIN=tardis.ed.ac.uk
+    volumes:
+      - ./ldap:/tardis/
