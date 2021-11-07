@@ -2,6 +2,10 @@ dn: ou=People,dc=tardis,dc=ed,dc=ac,dc=uk
 objectClass: organizationalUnit
 ou: People
 
+dn: ou=DisabledUsers,dc=tardis,dc=ed,dc=ac,dc=uk
+objectClass: organizationalUnit
+ou: DisabledUsers
+
 dn: ou=Maps,dc=tardis,dc=ed,dc=ac,dc=uk
 objectClass: organizationalUnit
 ou: Maps
